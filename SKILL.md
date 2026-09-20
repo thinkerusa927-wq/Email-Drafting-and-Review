@@ -9,7 +9,7 @@ Write concise, commercially clear emails: courteous without ceremony and precise
 
 ## Style context
 
-Read [references/style-profile.md](references/style-profile.md) before drafting or reviewing. Read [references/examples.md](references/examples.md) when a routine request or multi-issue proposal would benefit from an illustration. Those examples are fictional, not evidence of anyone's sent emails.
+Read [references/style-profile.md](references/style-profile.md) before drafting or reviewing. Read [references/examples.md](references/examples.md) when a routine request or multi-issue proposal would benefit from an illustration.
 
 Current user instructions take priority over the defaults.
 
