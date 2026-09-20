@@ -37,4 +37,4 @@ Use these selectively, without turning every email into a template:
 
 ## Calibration
 
-Personal preferences require the user's instructions or approved samples. Recipient-specific politeness, transaction terminology, and one-off constraints are not universal style rules. Follow the learning procedure in SKILL.md for authorized personal updates.
+Adapt these defaults to the user's instructions and the current recipient and context.

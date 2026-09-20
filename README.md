@@ -6,11 +6,11 @@ A reusable skill for concise external business emails, adapted from a personal d
 
 用于起草、精简、润色和审阅对外英文商务邮件。保留简洁、直接、礼貌及商业和法律表达准确的风格；审阅已有草稿时优先做最小修改。
 
-这是公开复用版：已移除个人身份、真实邮件语料及交易事实，示例全部为虚构。后续经用户授权保存的个人样本放在本地 `private/` 中，默认不进入 Git。
+这是公开复用版：已移除个人身份、真实邮件语料及交易事实，示例全部为虚构。
 
 ## Files
 
-- [SKILL.md](SKILL.md): drafting, review, and optional personal learning.
+- [SKILL.md](SKILL.md): drafting and review.
 - [Style profile](references/style-profile.md): reusable writing defaults.
 - [Fictional examples](references/examples.md): routine request, structured proposal, and a review boundary.
 - [Agent metadata](agents/openai.yaml): display name and invocation prompt.
@@ -24,7 +24,7 @@ Example requests:
 - `Use $draft-external-email to draft a short reply using the facts below.`
 - `Use $draft-external-email to review this email. Preserve my structure and flag changes to commitments.`
 
-The skill produces drafts; sending requires a separate user instruction. Optional style learning requires an explicit request to store or update samples. Keep `private/` local; do not include it in public uploads or shared archives. Git ignore does not protect files already committed.
+The skill produces drafts; sending requires a separate user instruction.
 
 ---
 
@@ -38,7 +38,7 @@ Write concise, commercially clear emails: courteous without ceremony and precise
 
 Read [references/style-profile.md](references/style-profile.md) before drafting or reviewing. Read [references/examples.md](references/examples.md) when a routine request or multi-issue proposal would benefit from an illustration. Those examples are fictional, not evidence of anyone's sent emails.
 
-If the user has an authorized local style record, consult `private/style-profile.md` and relevant entries in `private/email-corpus.md` when present. Current user instructions take priority over the defaults. Repeated choices in confirmed sent emails carry more weight than isolated wording.
+Current user instructions take priority over the defaults.
 
 ## Draft or revise
 
@@ -53,14 +53,3 @@ If the user has an authorized local style record, consult `private/style-profile
 ## Review an existing draft
 
 Preserve its structure and usable wording. Make the smallest edits needed for natural English, precision, concision, and tone. Keep characteristic phrases when they work. Briefly flag edits that materially change legal or commercial meaning, especially obligations, admissions, deadlines, and settlement language.
-
-## Learn from an approved sample
-
-Only persist learning when the user explicitly requests a style update or designates text as a style sample. Confirmation that an email was sent establishes its status; it does not by itself authorize storing it.
-
-1. Compare the earliest available draft with the final sent text, if both exist. Otherwise label it accurately as `Final sent only` or `Approved style sample — sending status unknown`.
-2. Keep authorized samples in local `private/email-corpus.md`, with date, minimal context, the available versions, and meaningful changes. Store only the personal or commercial details necessary for style learning.
-3. Update local `private/style-profile.md` conservatively. Mark explicit or repeatedly supported preferences as established, one-off observations as emerging, and keep transaction facts in the corpus.
-4. Tell the user briefly what was learned. Never infer that an unsent draft represents a final choice.
-
-The `private/` folder is excluded by this repository's `.gitignore`. Keep raw correspondence and personalized records out of public commits and export packages. Git ignore does not protect already tracked files or manual uploads. Public changes should contain only generalized rules or clearly fictional examples.
