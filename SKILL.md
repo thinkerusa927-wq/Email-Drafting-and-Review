@@ -1,34 +1,7 @@
-# Email Drafting and Review
-
-A reusable skill for concise external business emails, adapted from a personal drafting workflow.
-
-## 中文说明
-
-用于起草、精简、润色和审阅对外英文商务邮件。保留简洁、直接、礼貌及商业和法律表达准确的风格；审阅已有草稿时优先做最小修改。
-
-这是公开复用版：已移除个人身份、真实邮件语料及交易事实，示例全部为虚构。后续经用户授权保存的个人样本放在本地 `private/` 中，默认不进入 Git。
-
-## Files
-
-- [SKILL.md](SKILL.md): drafting, review, and optional personal learning.
-- [Style profile](references/style-profile.md): reusable writing defaults.
-- [Fictional examples](references/examples.md): routine request, structured proposal, and a review boundary.
-- [Agent metadata](agents/openai.yaml): display name and invocation prompt.
-
-## Use
-
-Place this repository's contents in a skill directory named `draft-external-email` in your agent's configured skills location. The entrypoint is `SKILL.md`; keep `references/` and `agents/` beside it. No scripts or external service connections are required.
-
-Example requests:
-
-- `Use $draft-external-email to draft a short reply using the facts below.`
-- `Use $draft-external-email to review this email. Preserve my structure and flag changes to commitments.`
-
-The skill produces drafts; sending requires a separate user instruction. Optional style learning requires an explicit request to store or update samples. Keep `private/` local; do not include it in public uploads or shared archives. Git ignore does not protect files already committed.
-
 ---
-
-## Complete skill instructions
+name: draft-external-email
+description: Draft, shorten, polish, or review external business emails in concise English. Use for replies, requests, proposals, follow-ups, and negotiation correspondence with business contacts; adapt to explicitly approved personal style samples.
+---
 
 # Draft External Email
 

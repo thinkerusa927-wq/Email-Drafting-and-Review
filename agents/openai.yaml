@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Drafting and Review"
+  short_description: "Draft and review concise external business emails"
+  default_prompt: "Use $draft-external-email to draft or review the email below while preserving its commercial meaning."
