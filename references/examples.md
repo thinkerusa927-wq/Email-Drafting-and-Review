@@ -1,6 +1,6 @@
 # Fictional Examples
 
-All names, situations, and messages below were created for this public skill. They are not actual correspondence or records of sent emails.
+All names, situations, and messages below were created for this public skill.
 
 ## Routine request: workshop materials
 
@@ -8,7 +8,7 @@ All names, situations, and messages below were created for this public skill. Th
 
 Hi Alex,
 
-Thank you very much for sending across the agenda. We have looked at it and it seems good. We are still discussing internally who will attend the workshop and will let you know when we know. Can you send the slides before the workshop so everyone can look at them?
+Thank you very much for sending across the agenda. We have looked at it and it looks good. We are still discussing internally who will attend the workshop and will let you know when we know. Can you send the slides before the workshop so everyone can look at them?
 
 Regards,
 Sam
